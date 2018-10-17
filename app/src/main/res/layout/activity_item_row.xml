@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="87dp"
+    android:background="@android:color/white"
+    android:onClick="onRowClick"
+    android:id="@+id/rowId">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="14dp"
+            android:padding="2dp"
+            android:src="@drawable/ic_photo_camera_black_24dp" />
+
+        <TextView
+            android:id="@+id/itemNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="91dp"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textDollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textViewAisle"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="-1dp"
+            android:layout_toStartOf="@+id/itemPriceText"
+            android:text="$"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/itemPriceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="91dp"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewAisle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/itemImage"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginBottom="10dp"
+            android:text="Aisle No:"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/itemAisleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/itemImage"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="142dp"
+            android:layout_marginBottom="10dp"
+            android:text="N"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/itemDateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/itemImage"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="209dp"
+            android:layout_marginBottom="10dp"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/menuImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="18dp"
+            android:src="@drawable/ic_more_vert_black_24dp" />
+
+
+</RelativeLayout>

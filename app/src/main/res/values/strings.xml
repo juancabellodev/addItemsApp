@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ShopWMe</string>
+    <string name="title_activity_new_world">NewWorldActivity</string>
+    <string name="delete">delete_item</string>
+</resources>
